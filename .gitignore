@@ -1,0 +1,61 @@
+# Build outputs
+/bin/
+/obj/
+**/bin/
+**/obj/
+/publish/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.idea/
+.vscode/
+
+# User-specific
+*.rsuser
+*.user
+*.userprefs
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# NuGet
+*.nupkg
+.packages/
+.nuget/packages/
+
+# ASP.NET / app settings / secrets
+appsettings*.json
+secrets.json
+*.pfx
+*.p12
+
+# Node / frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+/build/
+
+# Logs
+*.log
+
+# Test results / coverage
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker / environment
+docker-compose.override.yml
+.env
+
+# Other
+*.DS_Store
